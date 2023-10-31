@@ -1,0 +1,89 @@
+body{
+    background-image: url(https://i.postimg.cc/rm3dsfHJ/wave-anim.gif);
+}
+
+#bg-info {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    background-repeat: no-repeat;
+}
+#text {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    animation: bounceball 1s infinite;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+}
+
+nav {
+    background-image: url(https://i.postimg.cc/WbThYq0X/binarygif.gif);
+}
+.navbar-nav {
+    background: transparent !important;
+    border: none !important;
+    margin-left: 150px !important;
+}
+.navbar-nav li a{
+    background-color: transparent;
+}
+.navbar-nav li {
+    margin-inline: 15px;
+}
+/* Stripe Container */
+.stripe-container {
+    width: 100%;
+    font: 900 5.5rem sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+  }
+  
+  /* Stripe Background Gradient */
+  .stripe-background {
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 8px,
+        rgb(19, 165, 198) 60px
+      ),
+      linear-gradient(
+        10deg,
+        #ef0b0b,
+        #e71376,
+        #8164d7,
+        #aa60c8,
+        #cc60b3,
+        #e3689c,
+        #0920b4,
+        #ee8c7e,
+        #da0b72,
+        #7e09d7,
+        #2d04b2
+      );
+    /* Background Text Clip */
+    /* webkit vendor prefix start */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* webkit vendor prefix end */
+    background-clip: text;
+    animation: stripe-text-animation 3s alternate infinite;
+  }
+  
+  /* Stripe Text Animation */
+  @keyframes stripe-text-animation {
+    from {
+      background-position: 0 100px;
+    }
+  
+    to {
+      background-position: 300px 300px;
+    }
+  }
+  
