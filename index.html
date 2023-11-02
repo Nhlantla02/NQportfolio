@@ -12,7 +12,8 @@
     <title>Portfolio</title>
 </head>
 <body class="bg-info">
-    <nav class="navbar navbar-expand-lg bg-info">
+    <section id="home">
+    <nav class="navbar navbar-expand-lg bg-info sticky-top">
         <!-- <div id="ballAnimLayout">
             <div id="ball"></div>
         </div> -->
@@ -25,25 +26,25 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
               <ul class="navbar-nav bg-light border border-primary">
-                <li class="nav-item bg-light border border-primary">
+                <li class="nav-item bg-light border border-primary fw-medium">
                   <a class="nav-link active bg-primary" aria-current="page" href="index.html">Home</a>
                 </li>
-                <li class="nav-item bg-light border border-primary">
-                  <a class="nav-link bg-primary" href="#">About</a>
+                <li class="nav-item bg-light border border-primary fw-medium">
+                  <a class="nav-link bg-primary" aria-current="page" href="#about">About</a>
                 </li>
-                <li class="nav-item bg-light border border-primary">
+                <li class="nav-item bg-light border border-primary fw-medium">
                   <a class="nav-link bg-primary" href="#">Work</a>
                 </li>
-                <li class="nav-item bg-light border border-primary">
+                <li class="nav-item bg-light border border-primary fw-medium">
                   <a class="nav-link bg-primary" href="#">Skills</a>
                 </li>
-                <li class="nav-item bg-light border border-primary">
+                <li class="nav-item bg-light border border-primary fw-medium">
                   <a class="nav-link bg-primary" href="#">Projects</a>
                 </li>
-                <li class="nav-item bg-light border border-primary">
+                <li class="nav-item bg-light border border-primary fw-medium">
                   <a class="nav-link bg-primary" href="#">Testimonials</a>
                 </li>
-                <li class="nav-item bg-light border border-primary">
+                <li class="nav-item bg-light border border-primary fw-medium">
                   <a class="nav-link bg-primary" href="#">Contact</a>
                 </li>
               </ul>
@@ -51,17 +52,96 @@
         </div>
     </nav>
 <main>
-    <div class="container-fluid w-75">
-        <h1>
-            <img src="https://i.postimg.cc/Qt2ky25L/IMG-20231009-180131.jpg" class="w-100" alt="profile">
-            <div class="content">
-                <div class="stripe-container">
-                    <h1 class="stripe-background">MY NAME IS NHLANTLA QAJANA I AM A FULL STACK DEVELOPER.</h1>
-                </h1>
+    <section class="container" id="Home">
+        <div class="row  d-block d-sm-flex vh-100 justify-content-center align-items-center">
+            <div class="col d-flex ">
+                <img src="https://i.postimg.cc/Qt2ky25L/IMG-20231009-180131.jpg" class="img-fluid w-50 " alt="profile">
             </div>
-    </div>
-    </div>
+            <div class="col mt-3 mt-sm-0">
+                <div class="content">
+                    <div class="stripe-container">
+                        <h1 class="display-3 stripe-background">
+                            MY NAME IS NHLANTLA QAJANA
+                            <span> I AM A FULL STACK DEVELOPER.</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+        <section class="container position-relative fw-lighter bg-info border-3 rounded-3" id="about">
+                <h1 class="display-4  fw-bolder bg-info">
+                    About</h1>
+                <p class=" bg-body border-3 rounded-4">
+
+                       <!---<div id="carouselExampleFade" class="carousel slide carousel-fade">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <p>This is Nhlantla Qajana a highly motivated Full Stack Developer and critical thinking design thinking skills. I love solving problems and a challenging activities I also like working with a team.</span>
+                                </p>
+                              </div>
+                              <div class="carousel-item">
+                                <p> I love being creative as well as updating myself self with the rapidly grow industries. I adapt quickly with the changes of the environment as I always preapare myself for changes.love investing my time watching tutorial on YouTube upskilling myself and updting my brain as well as listening to motivational speaker.</span>
+
+                                </p>
+                              </div>
+                              <div class="carousel-item">
+                                <p>I have an experience of customer service, tech supprot and telemakerking etc, as a call center agent.I attended online courses on SimpliLearn platform and codeliber.</span>
+                                </p>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>--->  
+                          <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  First content
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body fw-bolder bg-info">
+                                  <strong>This is Nhlantla Qajana a highly motivated Full Stack Developer and critical thinking design thinking skills. I love solving problems and a challenging activities I also like working with a team. I decided to choose this career so that I can make a change in the village because helping people is my passion and thsi is the best career that will me achieve the goals I set for myself.</strong>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Second content
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse fw-bold" data-bs-parent="#accordionExample">
+                                <div class="accordion-body fw-bolder bg-info">
+                                  <strong>I am creative and I like to updating myself with the rapidly growing industries.I adapt quickly with the changes of the environment because I always prepare myself for changes.love investing my time watching tutorial on YouTube upskilling myself and updting my brain as well as listening to motivational speaker.Watching tutorial on YouTube helped me a lot to know more about my career.I love hugging around people who are hungry for success people who believe in them selves.</strong> 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header fw-bolder bg-info">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Third content
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body fw-bolder bg-info">
+                                  <strong>I worked at Shadow Careeers and I gained an experience of customer service, tech supprot and telemakerking etc, as a call center agent.That was my first job and I enjoyed the jounery I even wish I could stay there I left Shadow Careers because I signed a 3 months contract and I learned a lot about call center environment which helped me a lot to be more confident and believe in myself. At Shadow careers I also attended online courses on their platform which is sponsored by BPESA FUTURESKILL where I obtained 97 badges and more and I was on the 1st leaderboard position.</strong> 
+                                </div>
+                              </div>
+                            </div>
+                          </div> 
+                </p>
+        </section>
 </main>
+</section>
     <!--Js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

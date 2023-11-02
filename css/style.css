@@ -1,6 +1,10 @@
 body{
     background-image: url(https://i.postimg.cc/rm3dsfHJ/wave-anim.gif);
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
 }
+
 
 #bg-info {
     position: absolute;
@@ -36,19 +40,19 @@ nav {
 }
 /* Stripe Container */
 .stripe-container {
-    width: 100%;
-    font: 900 5.5rem sans-serif;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: black;
-  }
+        width: 100%;
+        font: 900 5.5rem sans-serif;
+        text-align: center;
+        display: flex;
+        /* justify-content: ;
+        align-items: center; */
+        background: black;
+    }
   
   /* Stripe Background Gradient */
   .stripe-background {
     background: repeating-linear-gradient(
-        45deg,
+        40deg,
         transparent,
         transparent 8px,
         rgb(19, 165, 198) 60px
@@ -85,5 +89,16 @@ nav {
     to {
       background-position: 300px 300px;
     }
-  }
-  
+}
+@media screen and (width < 576px) {
+    #Home :is(img[alt="profile"]) {
+        margin-inline: auto;
+    }
+    
+}
+.container{
+    background-image: url();
+}
+/*.display-4{
+    background-image: url(https://i.postimg.cc/50fNz12n/binary-anim.webp);
+}*/
