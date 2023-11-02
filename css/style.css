@@ -96,12 +96,11 @@ nav {
     }
     
 }
-.{
-    background-image: url();
+/*.col-4{
+    width: 60px;
+    margin: 10px;
+    padding: 100px;
 }
 .footer{
     background-image: url(https://i.postimg.cc/3xTkbdnC/block.jpg);
 }
-/*.display-4{
-    background-image: url(https://i.postimg.cc/50fNz12n/binary-anim.webp);
-}*/
