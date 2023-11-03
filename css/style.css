@@ -98,9 +98,11 @@ nav {
     }
     
 }
-.container{
-    background-image: url();
+/*.col-4{
+    width: 60px;
+    margin: 10px;
+    padding: 100px;
 }
-/*.display-4{
-    background-image: url(https://i.postimg.cc/50fNz12n/binary-anim.webp);
-}*/
+.footer{
+    background-image: url(https://i.postimg.cc/3xTkbdnC/block.jpg);
+}
